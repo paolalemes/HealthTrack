@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+#nome, #dtnasc, #altura, #peso, #genero, #email, #senha{
+    background-color: white;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #62c5d3;
+}
+
+.custom-select:focus{
+    box-shadow: none;
+    border-color: #62c5d3;
+}
+
+main.home.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main.batimentos.container{
+    margin-top: 50px;
+}
+
+main.refeicao.container{
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+
+main.configuracao.container{
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+#data{
+    background-color: #dee2e6 ;
+}
+
+@media (min-width: 768){
+    header{
+        margin: 50%;
+    }
+}
